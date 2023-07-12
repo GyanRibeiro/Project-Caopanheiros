@@ -28,6 +28,7 @@ header nav div {
 }
 
 header nav div h1 {
+    margin-top: 15px;
     margin-left: 10px;
     color: #22C3E6;
 }
@@ -105,8 +106,6 @@ li a {
     color: #ffffff;
 
     font-size: 18px;
-
-    margin-left: 10px;
 }
 
 .banner1 {
@@ -114,12 +113,35 @@ li a {
 
 }
 
+.banner1:hover, .banner2:hover, .banner3:hover {
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
 .banner2 {
-    background-color: #39aae1;
+    background-color: #0079c7;
 }
 
 .banner3 {
     background-color: #2b4c99;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.banner3 div {
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    width: 90%;
+
+    padding: 5px;
+
+    border-bottom: 1px #39aae1 solid;
 }
 
 h3 {
@@ -128,7 +150,11 @@ h3 {
 
 .description {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+.description3 {
     font-size: 15px;
 }
 
