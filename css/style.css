@@ -19,7 +19,7 @@ header nav {
 
     justify-content: space-around;
 
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 header nav div {
@@ -38,11 +38,12 @@ ul {
 }
 
 li {
-    margin: 15px;
+    margin-left: 20px;
+    margin-right: 40px;
 }
 
 li a {
-    color: #22C3E6;
+    color: #000000;
 }
 
 .baner {
@@ -59,7 +60,7 @@ li a {
 }
 
 .container {
-    width: 70%;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -113,10 +114,10 @@ li a {
 
 }
 
-.banner1:hover, .banner2:hover, .banner3:hover {
+/* .banner1:hover, .banner2:hover, .banner3:hover {
     transform: scale(1.1);
     transition: 0.3s all;
-}
+} */
 
 .banner2 {
     background-color: #0079c7;
@@ -166,4 +167,147 @@ h3 {
     color: #ffffff;
 
     font-size: 15px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    width: 85%;
+
+    display: flex;
+}
+
+.aba1 {
+    flex: 2;
+}
+
+.aba2 {
+    flex: 1;
+
+}
+
+.widget-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.linha-text {
+    width: 55px;
+    height: 2px;
+
+    background-color: #22C3E6;
+
+    margin-top: 10px;
+}
+
+.widget-title h4 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.datanews {
+    display: flex;
+}
+
+.newposted {
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+
+    padding: 10px;
+}
+
+.newcomments {
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 12px;
+
+    padding: 10px;
+
+    margin-left: 3px;
+}
+
+.thumb {
+    margin-top: 30px;
+}
+
+.thumb img {
+    width: 100%;
+    height: auto;
+}
+
+.title-notice {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title-notice h3 {
+    font-weight: 500;
+}
+
+.news-resume {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.widget-body    {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    padding-right: 20px;
+}
+
+#body-noticies {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.boxs-aside {
+    min-width: 200px;
+    width: 200px;
+    height: 150px;
+
+    margin-bottom: 30px;
+
+    background-color: #0079c7;
+}
+
+.consults-text p{
+    font-size: 16px;
+}
+
+.container-contato {
+    margin-top: 30px;
+}
+
+#telefone, #formulario {
+    margin-left: 5px;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.contatos p {
+    margin-left: 10px;
+    font-size: 14px;
 }
