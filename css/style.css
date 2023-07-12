@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+
+    margin-top: 20px;
+}
+
+header nav div {
+    display: flex;
+    align-items: center;
+}
+
+header nav div h1 {
+    margin-left: 10px;
+    color: #22C3E6;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 15px;
+}
+
+li a {
+    color: #22C3E6;
+}
+
+.baner {
+    margin-top: 30px;
+    height: 670px;
+    
+    background-image: url(https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218452.jpg?w=1380&t=st=1689138997~exp=1689139597~hmac=e2471094345303e1de904a297d279078c9be603adcc80d40f1e075b8c3179001);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.banner-headline {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.slogan {
+    color: #ffffff;
+    font-size: 70px;
+    width: 650px;
+
+    text-shadow: 0px 1px 0 #555555;
+    
+}
+
+.slogan2 {
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 350px;
+
+    margin-top: 15px;
+    text-shadow: 0px 1px 0 #555555;
+}
+
+.banner-options {
+    height: 210px;
+
+    display: flex;
+}
+
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    padding: 20px;
+
+    color: #ffffff;
+
+    font-size: 18px;
+
+    margin-left: 10px;
+}
+
+.banner1 {
+    background-color: #39aae1;
+
+}
+
+.banner2 {
+    background-color: #39aae1;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.botao {
+    border: 1px #ffffff solid;
+    padding: 5px;
+    display: inline-block;
+
+    color: #ffffff;
+
+    font-size: 15px;
+}
