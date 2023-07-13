@@ -13,6 +13,30 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+}
+
+nav a {
+    padding: 20px 25px;
+    color: #000000;
+}
+
+nav .active a, nav a:hover {
+    background-color: #39aae1;
+    color: #ffffff;
+
+    transition: 0.5s all;
+
+    border-radius: 3px;
+}
+
+.active {
+    margin-right: 5px;
+}
+    
+
 header nav {
     display: flex;
     align-items: center;
@@ -37,20 +61,11 @@ ul {
     display: flex;
 }
 
-li {
-    margin-left: 20px;
-    margin-right: 40px;
-}
-
-li a {
-    color: #000000;
-}
 
 .baner {
-    margin-top: 30px;
     height: 670px;
     
-    background-image: url(https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218452.jpg?w=1380&t=st=1689138997~exp=1689139597~hmac=e2471094345303e1de904a297d279078c9be603adcc80d40f1e075b8c3179001);
+    background-image: url(https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218452.jpg?w=1380&t=st=1689291048~exp=1689291648~hmac=977a3eef2f751b55974c2b6750c00f64300c7892e5bc766f8cd89d2d0821db63);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -88,7 +103,7 @@ li a {
 .slogan2 {
     font-size: 20px;
     color: #ffffff;
-    max-width: 350px;
+    max-width: 370px;
 
     margin-top: 15px;
     text-shadow: 0px 1px 0 #555555;
