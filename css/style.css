@@ -67,7 +67,7 @@ ul {
 .baner {
     height: 670px;
     
-    background-image: url(https://img.freepik.com/free-photo/beautiful-pet-portrait-dog_23-2149218452.jpg?w=1380&t=st=1689291048~exp=1689291648~hmac=977a3eef2f751b55974c2b6750c00f64300c7892e5bc766f8cd89d2d0821db63);
+    background-image: url(../imagens/beautiful-pet-portrait-dog.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -278,7 +278,7 @@ h3 {
 }
 
 article {
-    flex: 1;
+    flex-basis: 50%;
     min-width: 300px;
     padding-right: 20px;
 }
