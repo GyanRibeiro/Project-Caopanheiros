@@ -341,7 +341,7 @@ article {
 
 .boxs-aside {
     min-width: 200px;
-    width: 200px;
+    flex-basis: 48%;
     height: 150px;
 
     margin-bottom: 30px;
@@ -390,5 +390,71 @@ article {
 
 .contatos p {
     margin-left: 10px;
+    font-size: 14px;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #0079c7;
+}
+
+.rodape-informacoes {
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+
+    margin: 40px;
+
+}
+
+.infos p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff;
+
+    font-size: 15px;
+}
+
+.infos a {
+    margin-top: 8px;
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+.redes img {
+    width: 35px;
+    margin: 10px;
+}
+
+.logo {
+    margin-top: 10px;
+}
+
+.logo a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.direitos {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.direitos p, .direitos a {
+    color: #ffffff;
+
     font-size: 14px;
 }
