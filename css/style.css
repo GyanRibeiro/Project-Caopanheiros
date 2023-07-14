@@ -20,7 +20,9 @@ header {
 
 nav a {
     padding: 20px 25px;
-    color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    color: #3b3b3b;
 }
 
 nav .active a, nav a:hover {
