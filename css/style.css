@@ -213,9 +213,14 @@ h3 {
     font-size: 15px;
 }
 
-.section2 {
+.section2, .section3 {
     display: flex;
     justify-content: center;
+
+}
+
+.section3 {
+    margin-top: 100px;
 }
 
 .container2 {
@@ -456,5 +461,75 @@ article {
 .direitos p, .direitos a {
     color: #ffffff;
 
+    font-size: 14px;
+}
+
+.title-adocao h1 {
+    color: #2b4c99;
+}
+
+.formu {
+    border: 1px #dfdfdf solid;
+    border-radius: 10px;
+    width: 100%;
+    
+    margin-top: 30px;
+
+    flex-wrap: wrap;
+
+    padding: 15px 30px 15px 30px;
+
+    align-items: center;
+}
+
+.container-section3 {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+select {
+    width: 33%;
+    height: 45px;
+
+    border-radius: 8px;
+
+    padding: 10px;
+    font-size: 16px;
+
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.cidade, .estado {
+    width: 25%;
+}
+
+button, input {
+    width: 24%;
+    height: 45px;
+
+    border-radius: 8px;
+
+    border: 1px #dfdfdf solid;
+}
+
+button {
+    background-color: #39aae1;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+
+    height: 50px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #148cdb;
+    transition: 0.5s all;
+}
+
+input {
+    padding: 15px;
     font-size: 14px;
 }
