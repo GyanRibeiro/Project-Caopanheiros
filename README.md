@@ -1,9 +1,9 @@
 <h2 align="center">☕ Projeto Em Desenvolvimento</h2> <br>
 
-# ✨ Landing Page Nayg'up
+# 🐶 Projeto Cãopanheiros
 
 ![preview](https://github.com/GyanRibeiro/Project-Caopanheiros/blob/main/assets/Captura%20de%20tela%202023-07-17%20173719.png?raw=true)
-[🔗 Clique aqui para acessar]()
+[🔗 Clique aqui para acessar](https://caopanheiros.netlify.app/)
 
 ## Projeto prático em desenvolvimento
 
