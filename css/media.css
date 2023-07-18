@@ -1,0 +1,106 @@
+@media (max-width: 600px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+
+    }
+    
+    .banner-headline {
+        padding: 20px;
+    }
+
+    .banner-headline .slogan {
+        font-size: 50px;
+        width: 450px;
+    }
+
+    .banner-headline .slogan2 {
+        font-size: 15px;
+    }
+
+    .container {
+        width: 100%;
+        border: 1px rgb(0, 255, 55) solid;
+    }
+
+    .banner-options {
+        margin-top: 400px;
+
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container-artigos {
+        flex-direction: column;
+
+        
+    }
+
+    article {
+        flex: 1;
+    }
+
+    .section3 {
+        margin-top: 100%;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+   
+    }
+
+    select {
+        width: 49%;
+    }
+
+    .estado {
+        width: 49%;
+    }
+
+    .cidade {
+        width: 49%;
+    }
+
+    input {
+        width: 49%;
+    }
+
+    form button {
+        width: 50%;
+    }
+
+    .formu {
+        
+    }
+
+    .container2 {
+        width: 95%;
+        
+    }
+
+    .section4 {
+        margin-top: 20px;
+    }
+
+    .rodape-informacoes {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .infos {
+        border: 1px solid red;
+    }
+
+    .infos p {
+        font-size: 18px;
+    }
+
+    .infos a {
+        font-size: 17px;
+    }
+}   
+
+    
