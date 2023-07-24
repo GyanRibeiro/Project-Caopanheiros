@@ -369,6 +369,7 @@ article {
 
 .boxs-aside img{
     border-radius: 3px;
+    object-fit: cover;
 }
 
 .aside-vermais a {
@@ -595,4 +596,8 @@ input {
 
     margin-top: 5px;
     padding-left: 20px;
+}
+
+.menu-mobile {
+    display: none;
 }

@@ -41,39 +41,31 @@
     }
 
     .section3 {
-        margin-top: 100%;
+        margin-top: 600px;
     }
 
     form {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
         align-items: center;
    
     }
 
     select {
-        width: 49%;
+        width: 100%;
     }
 
-    .estado {
-        width: 49%;
-    }
-
-    .cidade {
-        width: 49%;
+    .cidade, .estado {
+        width: 100%;
     }
 
     input {
-        width: 49%;
+        width: 100%;
     }
 
     form button {
-        width: 50%;
-    }
-
-    .formu {
-        
+        margin-top: 20px;
+        width: 100%;
     }
 
     .container2 {
@@ -90,16 +82,61 @@
         flex-wrap: wrap;
     }
 
-    .infos {
-        border: 1px solid red;
-    }
-
     .infos p {
         font-size: 18px;
     }
 
     .infos a {
         font-size: 17px;
+    }
+
+    .container3 {
+        width: 95%;
+    }
+
+    .caes-adocao {
+        flex: 46%;
+        height: auto;
+    }
+
+    .rodape {
+        margin-top: 20px;
+    }
+
+    .navpt1 ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    .logo-main {
+        order: 2;
+    }
+
+    .cadastre {
+        display: none;
+    }
+
+
+    .menu-mobile {
+        display: block;
+        width: 40px;
+        height: 40px;
+
+        /* background-color: #222; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mm-line {
+        background-color: #9ca3af;
+        width: 50%;
+        height: 3px;
+
+        margin: 2px;
+        border-radius: 2px;
     }
 }   
 
