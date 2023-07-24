@@ -73,6 +73,14 @@
         
     }
 
+    .baner {
+
+        background-image: url(https://img.freepik.com/fotos-gratis/retrato-de-cao-pastor-alemao-em-iluminacao-gradiente_23-2149277188.jpg?w=360&t=st=1690229705~exp=1690230305~hmac=7792a322aa4ea506897776e9db53be58f982373c1aed153fbc41f672a8f8a06a);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
     .section4 {
         margin-top: 20px;
     }
@@ -105,9 +113,18 @@
 
     .navpt1 ul {
         flex-direction: column;
-        display: none;
-    }
 
+        padding: 20px;
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+/* 
+    .navpt1 ul li {
+        margin-top: 100px;
+    } */
     .logo-main {
         order: 2;
     }
@@ -132,7 +149,7 @@
 
     .mm-line {
         background-color: #9ca3af;
-        width: 50%;
+        width: 20px;
         height: 3px;
 
         margin: 2px;
