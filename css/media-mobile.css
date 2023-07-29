@@ -1,4 +1,4 @@
-@media (min-width: 750px) and (max-width: 1000px) {
+@media (min-width: 751px) and (max-width: 1058px) {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
@@ -6,11 +6,67 @@
     }
 
     header nav div h1 {
-        margin-top: 0;
+        display: none;
     }
 
     .cadastre {
         display: none;
+    }
+
+    .container {
+        width: 99%;
+    }
+
+    .container2 {
+        width: 95%;
+    }
+
+    .banner-options {
+        height: auto;
+    }
+
+    select {
+        width: 32%;
+    }
+
+    button {
+        width: 15%;
+    }
+
+    input {
+        width: 30%;
+    }
+
+    .cidade, .estado {
+        width: 26%;
+    }
+
+    .container3 {
+        width: 95%;
+        justify-content: space-evenly;
+    }
+
+    .caes-adocao {
+        margin: 10px 0px;
+    }
+
+    .section2 {
+        margin-top: 50px;
+    }
+
+    .boxs-aside{
+        flex-basis: 100%;
+        height: auto;
+    }
+    
+    article {
+        flex: 1;
+    }
+}
+
+@media (min-width: 1058px) and (max-width: 1188px) {
+    .cadastre a {
+        
     }
 }
 
@@ -54,6 +110,8 @@
     article {
         flex: 1;
     }
+
+    
 
     .section3 {
         margin-top: 600px;
