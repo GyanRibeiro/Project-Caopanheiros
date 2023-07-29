@@ -1,4 +1,20 @@
-@media (max-width: 600px) {
+@media (min-width: 750px) and (max-width: 1000px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+
+    }
+
+    header nav div h1 {
+        margin-top: 0;
+    }
+
+    .cadastre {
+        display: none;
+    }
+}
+
+@media (max-width: 750px) {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
