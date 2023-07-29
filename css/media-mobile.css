@@ -1,4 +1,4 @@
-@media (min-width: 751px) and (max-width: 1058px) {
+@media (min-width: 750px) and (max-width: 880px) {
     html, body {
         max-width: 100%;
         overflow-x: hidden;
@@ -9,12 +9,16 @@
         display: none;
     }
 
+    nav a {
+        padding: 18px 10px;
+    }
+
     .cadastre {
         display: none;
     }
 
     .container {
-        width: 99%;
+        width: 90%;
     }
 
     .container2 {
@@ -58,10 +62,75 @@
         flex-basis: 100%;
         height: auto;
     }
-    
+
     article {
         flex: 1;
     }
+    
+    
+}
+
+@media (min-width: 881px) and (max-width: 1057px) {
+
+    header nav div h1 {
+        display: none;
+    }
+
+    .cadastre {
+        display: none;
+    }
+
+    nav a {
+        padding: 18px 15px;
+    }
+
+    .container2 {
+        width: 90%;
+    }
+
+    .banner-options {
+        height: auto;
+    }
+
+    select {
+        width: 32%;
+    }
+
+    button {
+        width: 15%;
+    }
+
+    input {
+        width: 30%;
+    }
+
+    .cidade, .estado {
+        width: 26%;
+    }
+
+    .container3 {
+        width: 95%;
+        justify-content: space-evenly;
+    }
+
+    .caes-adocao {
+        margin: 10px 0px;
+    }
+
+    .section2 {
+        margin-top: 50px;
+    }
+
+    article {
+        min-width: 250px;
+        /* flex: 1; */
+    }
+
+    .boxs-aside{
+        min-width: 100px;
+        height: auto;
+    }
+
 }
 
 @media (min-width: 1058px) and (max-width: 1188px) {
@@ -70,27 +139,47 @@
         margin-top: 30px;
     }
 
-    .boxs-aside{
+    /* .boxs-aside{
         flex-basis: 80%;
+        height: auto;
+    } */
+
+    .boxs-aside{
+        
+        min-width: 130px;
         height: auto;
     }
 
-    .container-aside {
-        justify-content: center;
-    }
-
-    li {
-        margin-left: 00px;
-    }
-
-    header nav {
-        justify-content: space-evenly;
+    article {
+        min-width: 250px;
+        /* flex: 1; */
     }
 
     nav a {
         padding: 18px 15px;
     }
 
+    .container3 {
+        justify-content: space-evenly;
+    }
+
+    .banner-options {
+        height: auto;
+    }
+
+}
+
+@media (min-width: 1189px) and (max-width: 1440px) {
+
+    nav a {
+        padding: 18px 15px;
+    }
+
+    .boxs-aside{
+        
+        min-width: 157px;
+        height: auto;
+    }
 }
 
 @media (max-width: 750px) {
