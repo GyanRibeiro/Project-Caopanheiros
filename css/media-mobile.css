@@ -65,9 +65,32 @@
 }
 
 @media (min-width: 1058px) and (max-width: 1188px) {
-    .cadastre a {
-        
+
+    footer {
+        margin-top: 30px;
     }
+
+    .boxs-aside{
+        flex-basis: 80%;
+        height: auto;
+    }
+
+    .container-aside {
+        justify-content: center;
+    }
+
+    li {
+        margin-left: 00px;
+    }
+
+    header nav {
+        justify-content: space-evenly;
+    }
+
+    nav a {
+        padding: 18px 15px;
+    }
+
 }
 
 @media (max-width: 750px) {
